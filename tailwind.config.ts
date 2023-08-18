@@ -8,11 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        primary: '#061f4a',
+        secondary: '#dd361c'
       },
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)'],
+        inter: ['var(--font-inter)']
+      },
+      animation: {
+        twinkle: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;'
+      }
     },
   },
   plugins: [],
