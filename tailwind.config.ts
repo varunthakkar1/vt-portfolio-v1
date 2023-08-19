@@ -1,27 +1,27 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       keyframes: {},
       colors: {
-        primary: '#061f4a',
-        secondary: '#dd361c'
+        primary: "#061f4a",
+        secondary: "#dd361c",
       },
       fontFamily: {
-        montserrat: ['var(--font-montserrat)'],
-        inter: ['var(--font-inter)']
+        montserrat: ["var(--font-montserrat)"],
+        inter: ["var(--font-inter)"],
       },
       animation: {
-        twinkle: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-      }
+        twinkle: "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
