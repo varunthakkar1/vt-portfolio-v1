@@ -8,6 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {},
       colors: {
         primary: '#061f4a',
         secondary: '#dd361c'
@@ -17,7 +18,7 @@ const config: Config = {
         inter: ['var(--font-inter)']
       },
       animation: {
-        twinkle: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;'
+        twinkle: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       }
     },
   },
