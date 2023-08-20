@@ -29,10 +29,10 @@ export default function Home() {
       })}
       <div className="bg-primary w-full h-screen justify-center items-center overflow-y-scroll no-scrollbar">
         <div className="flex flex-col w-full min-h-screen justify-center">
-          <div className="flex text-white text-8xl font-medium z-10 w-full justify-center break-normal mt-44">
+          <div className="flex text-white text-xl md:text-4xl lg:text-8xl font-medium z-10 w-full justify-center mt-[40vh] align-middle">
             VARUN THAKKAR
           </div>
-          <div className="flex text-slate-400 text-4xl font-normal z-10 w-full justify-center mb-44">
+          <div className="flex text-slate-400 text-lg md:text-2xl lg:text-4xl font-normal z-10 w-full justify-center mb-[30vh]">
             SOFTWARE ENGINEER
           </div>
           <div className="flex justify-center text-white w-full animate-bounce">
