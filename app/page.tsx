@@ -1,7 +1,18 @@
 import Image from "next/image";
 import { AiOutlineArrowDown } from "react-icons/ai";
+import Experience, { ExperienceModel } from "./components/Experience";
 const MAX_STAR_DELAY: number = 2000;
 const MAX_STARS: number = 200;
+
+const EXPERIENCES: Array<ExperienceModel> = [
+  {
+    date: "July 2022 - December 2022",
+    position: "Machine Learning Operations Intern",
+    company: "iRobot",
+    description:
+      "Optimized React and Typescript web application to support machine learning team by adding features, improving user experience, expanding testing, and refactoring existing codebase",
+  },
+];
 
 const generateStar = (): JSX.Element => {
   const delay: number = Math.floor(Math.random() * MAX_STAR_DELAY) - 1000;
@@ -29,18 +40,34 @@ export default function Home() {
       })}
       <div className="bg-primary w-full h-screen justify-center items-center overflow-y-scroll no-scrollbar">
         <div className="flex flex-col w-full min-h-screen justify-center">
-          <div className="flex text-white text-xl md:text-4xl lg:text-8xl font-medium z-10 w-full justify-center mt-[40vh] align-middle">
+          <div className="flex text-white text-2xl md:text-4xl lg:text-8xl font-medium z-10 w-full justify-center mt-[40vh] align-middle">
             VARUN THAKKAR
           </div>
-          <div className="flex text-slate-400 text-lg md:text-2xl lg:text-4xl font-normal z-10 w-full justify-center mb-[30vh]">
+          <div className="flex text-slate-400 text-xl md:text-2xl lg:text-4xl font-normal z-10 w-full justify-center mb-[30vh]">
             SOFTWARE ENGINEER
           </div>
           <div className="flex justify-center text-white w-full animate-bounce">
             <AiOutlineArrowDown size={"50px"} />
           </div>
         </div>
-        <div className="flex flex-col w-full min-h-screen justify-center">
-          ABOUT ME
+        <div className="flex flex-col w-full min-h-screen justify-center items-center">
+          <div className="flex w-full justify-center text-white text-lg md:text-2xl lg:text-4xl">
+            ABOUT ME
+          </div>
+          <div className="flex justify-center w-[70%] items-center text-slate-400 text-md md:text-xl lg:text-2xl">
+            In May 2023, I graduated with magna sum laude from Northeastern
+            University with a BS in Computer Science.
+          </div>
+        </div>
+        <div className="flex flex-col w-full min-h-screen justify-center items-center">
+          <div className="flex w-full justify-center text-white text-lg md:text-2xl lg:text-4xl">
+            EXPERIENCES
+          </div>
+          <div className="flex justify-center w-3/4 lg:w-1/2 items-center text-xs sm:text-sm md:text-md">
+            {EXPERIENCES.map((experience, key) => {
+              return <Experience key={key} {...experience} />;
+            })}
+          </div>
         </div>
       </div>
     </main>
