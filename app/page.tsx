@@ -1,18 +1,11 @@
 import Image from "next/image";
 import { AiOutlineArrowDown } from "react-icons/ai";
-import Experience, { ExperienceModel } from "./components/Experience";
+import Experience, {
+  ExperienceModel,
+} from "./components/experiences/Experience";
+import Experiences from "./components/experiences/Experiences";
 const MAX_STAR_DELAY: number = 2000;
 const MAX_STARS: number = 200;
-
-const EXPERIENCES: Array<ExperienceModel> = [
-  {
-    date: "July 2022 - December 2022",
-    position: "Machine Learning Operations Intern",
-    company: "iRobot",
-    description:
-      "Optimized React and Typescript web application to support machine learning team by adding features, improving user experience, expanding testing, and refactoring existing codebase",
-  },
-];
 
 const generateStar = (): JSX.Element => {
   const delay: number = Math.floor(Math.random() * MAX_STAR_DELAY) - 1000;
@@ -63,10 +56,8 @@ export default function Home() {
           <div className="flex w-full justify-center text-white text-lg md:text-2xl lg:text-4xl">
             EXPERIENCES
           </div>
-          <div className="flex justify-center w-3/4 lg:w-1/2 items-center text-xs sm:text-sm md:text-md">
-            {EXPERIENCES.map((experience, key) => {
-              return <Experience key={key} {...experience} />;
-            })}
+          <div className="flex justify-center w-10/12 lg:w-7/12 items-center">
+            <Experiences />
           </div>
         </div>
       </div>
