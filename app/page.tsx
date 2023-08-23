@@ -56,7 +56,7 @@ export default function Home() {
           <div className="flex w-full justify-center text-white text-lg md:text-2xl lg:text-4xl">
             EXPERIENCES
           </div>
-          <div className="flex justify-center w-10/12 lg:w-7/12 items-center">
+          <div className="flex justify-center w-10/12 lg:w-8/12 items-center">
             <Experiences />
           </div>
         </div>

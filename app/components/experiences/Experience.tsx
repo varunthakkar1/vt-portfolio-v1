@@ -1,10 +1,12 @@
 import { FiArrowRight, FiMinus } from "react-icons/fi";
+import Skill from "../Skill";
 
 export interface ExperienceModel {
   position: string;
   company: string;
   date: string;
   description: string;
+  skills?: string[];
 }
 
 const Experience = ({
@@ -12,6 +14,7 @@ const Experience = ({
   company,
   date,
   description,
+  skills,
 }: ExperienceModel): JSX.Element => {
   return (
     <div className="flex w-full min-w-[300px] flex-col rounded-sm my-[10px]">
@@ -28,6 +31,9 @@ const Experience = ({
           <FiArrowRight />
         </div>
         {description}
+      </div>
+      <div className="flex mx-[5px] my-[2px]">
+        <Skill skill="React" />
       </div>
     </div>
   );

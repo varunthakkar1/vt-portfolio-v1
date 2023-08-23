@@ -3,6 +3,7 @@
     "date": "July 2022 - December 2022",
     "position": "Machine Learning Operations Intern",
     "company": "iRobot",
+    "skills": ["React", "Tailwind", "TypeScript", "AWS"],
     "description": "Optimized React and Typescript web application to support machine learning team by adding features, improving user experience, expanding testing, and refactoring existing codebase"
   },
   {
