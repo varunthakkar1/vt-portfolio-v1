@@ -3,25 +3,36 @@
     "date": "July 2022 - December 2022",
     "position": "Machine Learning Operations Intern",
     "company": "iRobot",
-    "skills": ["React", "Tailwind", "TypeScript", "AWS"],
+    "skills": ["React", "Tailwind", "TypeScript", "Jest", "AWS"],
     "description": "Optimized React and Typescript web application to support machine learning team by adding features, improving user experience, expanding testing, and refactoring existing codebase"
   },
   {
     "date": "August 2020 - July 2022",
     "position": "Technical Lead, Developer",
     "company": "Code4Community",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Styled-components",
+      "PostgreSQL",
+      "Next.js",
+      "Responsive design",
+      "Java"
+    ],
     "description": "Collaborated with other student developers and designers to build two web applications for nonprofit organizations in the Boston area"
   },
   {
     "date": "July 2021 - December 2021",
     "position": "Python Software Engineering Co-op",
     "company": "MORSE Corp",
+    "skills": ["Python"],
     "description": "Expanded Python data pipeline infrastructure for $30M Department of Defense AI integration contract"
   },
   {
     "date": "July 2020 - December 2020",
     "position": "Software Engineering Co-op",
     "company": "Wellframe",
+    "skills": ["React", "Java", "Ruby on Rails", "PostgreSQL"],
     "description": "Developed features on Care Management team to optimize user experience for 6000 care managers using React, Java, Ruby on Rails, and PostgreSQL"
   }
 ]

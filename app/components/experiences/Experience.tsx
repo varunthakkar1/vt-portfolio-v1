@@ -6,7 +6,7 @@ export interface ExperienceModel {
   company: string;
   date: string;
   description: string;
-  skills?: string[];
+  skills: string[];
 }
 
 const Experience = ({
@@ -27,13 +27,15 @@ const Experience = ({
         <div className="flex text-white">{company}</div>
       </div>
       <div className="flex w-full text-slate-400 font-normal">
-        <div className="flex flex-col justify-center mr-[5px]">
+        <div className="relative top-[2px] md:top-[4px] mr-[5px]">
           <FiArrowRight />
         </div>
         {description}
       </div>
-      <div className="flex mx-[5px] my-[2px]">
-        <Skill skill="React" />
+      <div className="flex my-[3px] flex-wrap text-slate-400 whitespace-nowrap">
+        {skills.map((skill: string, key) => {
+          return <Skill key={key} skill={skill} />;
+        })}
       </div>
     </div>
   );

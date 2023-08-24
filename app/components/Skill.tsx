@@ -1,9 +1,5 @@
 const Skill = ({ skill }: { skill: string }): JSX.Element => {
-  return (
-    <div className="bg-slate-400 rounded text-opacity-0 w-min py-[2px] px-[5px] font-bold">
-      {skill}
-    </div>
-  );
+  return <div className="text-slate-400 w-min px-[8px] font-bold">{skill}</div>;
 };
 
 export default Skill;
