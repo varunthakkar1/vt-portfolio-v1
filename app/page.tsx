@@ -53,11 +53,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center w-full min-h-screen items-center">
-          <div className="flex justify-center w-10/12 lg:w-8/12">
-            <Experiences />
-          </div>
-        </div>
+        <Experiences />
       </div>
     </main>
   );
