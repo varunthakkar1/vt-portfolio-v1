@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex text-white text-2xl md:text-4xl lg:text-8xl font-medium z-10 w-full justify-center mt-[40vh] align-middle">
             VARUN THAKKAR
           </div>
-          <div className="flex text-slate-400 text-xl md:text-2xl lg:text-4xl font-normal z-10 w-full justify-center mb-[30vh]">
+          <div className="flex text-slate-300 text-xl md:text-2xl lg:text-4xl font-normal z-10 w-full justify-center mb-[30vh]">
             SOFTWARE ENGINEER
           </div>
           <div className="flex justify-center text-white w-full animate-bounce">
@@ -52,11 +52,9 @@ export default function Home() {
             University with a BS in Computer Science.
           </div>
         </div>
-        <div className="flex flex-col w-full min-h-screen justify-center items-center">
-          <div className="flex w-full justify-center text-white text-lg md:text-2xl lg:text-4xl">
-            EXPERIENCES
-          </div>
-          <div className="flex justify-center w-10/12 lg:w-8/12 items-center">
+
+        <div className="flex justify-center w-full min-h-screen items-center">
+          <div className="flex justify-center w-10/12 lg:w-8/12">
             <Experiences />
           </div>
         </div>

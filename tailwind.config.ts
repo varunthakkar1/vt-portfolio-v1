@@ -10,8 +10,8 @@ const config: Config = {
     extend: {
       keyframes: {},
       colors: {
-        primary: "#061f4a",
-        secondary: "#dd361c",
+        primary: "#083b6d",
+        secondary: "#74758d",
       },
       fontFamily: {
         montserrat: ["var(--font-montserrat)"],
