@@ -4,6 +4,7 @@ import Experience, {
   ExperienceModel,
 } from "./components/experiences/Experience";
 import Experiences from "./components/experiences/Experiences";
+import Projects from "./components/projects/Projects";
 const MAX_STAR_DELAY: number = 2000;
 const MAX_STARS: number = 200;
 
@@ -54,6 +55,7 @@ export default function Home() {
         </div>
 
         <Experiences />
+        <Projects />
       </div>
     </main>
   );

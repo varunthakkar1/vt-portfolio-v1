@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Covey.Town GameArea",
+    "description": "Added new feature to Covey.Town to allow players to play games against other players. Players can join the game queue and make groups within the queue. This feature is also specifically designed for other developers to implement their own games in a straightforward way.",
+    "skills": ["TypeScript", "Socket.IO", "React"]
+  }
+]
