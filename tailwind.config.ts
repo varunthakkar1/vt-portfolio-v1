@@ -11,7 +11,7 @@ const config: Config = {
       keyframes: {},
       colors: {
         primary: "#083b6d",
-        secondary: "#6d1f46",
+        secondary: "#006695",
       },
       fontFamily: {
         montserrat: ["var(--font-montserrat)"],
