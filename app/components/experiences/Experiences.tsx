@@ -1,7 +1,14 @@
+import { readFile } from "fs/promises";
 import Experience, { ExperienceModel } from "./Experience";
+import path from "path";
 
-const Experiences = (): JSX.Element => {
-  const data: Array<ExperienceModel> = require("../../../data/experiences.json");
+const Experiences = async (): Promise<JSX.Element> => {
+  const data: Array<ExperienceModel> = JSON.parse(
+    await readFile(
+      path.resolve(__dirname, "./../../../data/experiences.json"),
+      "utf8"
+    )
+  );
 
   return (
     <div className="flex justify-center w-full min-h-screen items-center">

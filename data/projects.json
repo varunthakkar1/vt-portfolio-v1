@@ -5,8 +5,28 @@
     "skills": ["TypeScript", "Socket.IO", "React"]
   },
   {
-    "name": "OutstandingLife",
-    "description": "Managed a team of seven developers in the development of a Next web application to manage event registration of a local organization supporting LGBTQIA+ older adults",
-    "skills": ["React", "TypeScript", "Next"]
+    "name": "ASL Sign Detection",
+    "description": "Trained logistic regression model and three different CNN architectures to predict ASL signs from images. Achieved 99% accuracy by fine-tuning pre-trained Xception and VGG19 models",
+    "skills": ["Python", "Keras", "Deep Learning"]
+  },
+  {
+    "name": "Marvel Character Catalog",
+    "description": "Designed React and TypeScript frontend for Marvel API with functionality for searching and filtering characters by comic, event, or series",
+    "skills": ["React", "TypeScript"]
+  },
+  {
+    "name": "Lucy's Love Bus",
+    "description": "Collaborated within a team of seven to develop Java Vert.x, React, TypeScript, Postgres event registration web application for local nonprofit organization",
+    "skills": ["React", "TypeScript"]
+  },
+  {
+    "name": "Self Driving with DQN",
+    "description": "Built Deep Q-learning Network autonomous driving system using Keras and OpenAI Gym. Tested feasibility with lane change, park, and intersection environments",
+    "skills": ["Python", "Reinforcement Learning"]
+  },
+  {
+    "name": "Falcon 9 Booster Tracker",
+    "description": "Developed responsive web application with PostgreSQL, Express, React, and Node to manage boosters and missions of SpaceX’s Falcon 9 rocket",
+    "skills": ["React", "Express", "PostgreSQL"]
   }
 ]
