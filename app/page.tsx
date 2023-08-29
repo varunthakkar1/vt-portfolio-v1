@@ -34,14 +34,16 @@ export default function Home() {
       })}
       <div className="bg-primary w-full h-screen justify-center items-center overflow-y-scroll no-scrollbar">
         <div className="flex flex-col w-full min-h-screen justify-center">
-          <div className="flex text-white text-2xl md:text-4xl lg:text-8xl font-medium z-10 w-full justify-center mt-[40vh] align-middle">
+          <div className="flex text-white text-2xl md:text-4xl lg:text-8xl font-medium z-10 w-full justify-center align-middle">
             VARUN THAKKAR
           </div>
-          <div className="flex text-slate-300 text-xl md:text-2xl lg:text-4xl font-normal z-10 w-full justify-center mb-[30vh]">
+          <div className="flex text-slate-300 text-xl md:text-2xl lg:text-4xl font-normal z-10 w-full justify-center">
             SOFTWARE ENGINEER
           </div>
-          <div className="flex justify-center text-white w-full animate-bounce">
-            <AiOutlineArrowDown size={"50px"} />
+          <div className="relative text-white w-full top-[40vh] animate-bounce">
+            <div className="flex justify-center">
+              <AiOutlineArrowDown size={"50px"} />
+            </div>
           </div>
         </div>
         <div className="flex flex-col w-full min-h-screen justify-center items-center">
