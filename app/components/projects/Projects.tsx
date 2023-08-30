@@ -17,7 +17,7 @@ const Projects = async (): Promise<JSX.Element> => {
           <div className="flex w-full mb-[30px] justify-center text-white text-lg md:text-2xl lg:text-4xl">
             PROJECTS
           </div>
-          <div className="flex items-center justify-evenly text-xs sm:text-sm md:text-md flex-wrap">
+          <div className="flex items-center justify-center flex-wrap">
             {data.map((project: ProjectModel, key) => {
               return <Project key={key} {...project} />;
             })}

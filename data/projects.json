@@ -1,7 +1,7 @@
 [
   {
     "name": "Covey.Town GameArea",
-    "description": "Enhanced Covey.Town by introducing a new feature that enables players to engage in games against one another. With this addition, players can enter a game queue and even create groups within the queue",
+    "description": "Enhanced Covey.Town by introducing a new feature that enables players to engage in games against one another. Players can enter the game queue and create groups within the queue",
     "skills": ["TypeScript", "Socket.IO", "React"]
   },
   {

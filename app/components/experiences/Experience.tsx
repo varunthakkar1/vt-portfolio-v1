@@ -17,7 +17,7 @@ const Experience = ({
   skills,
 }: ExperienceModel): JSX.Element => {
   return (
-    <div className="flex w-full min-w-[300px] flex-col rounded-sm my-[12px]">
+    <div className="flex w-full min-w-[300px] flex-col rounded-sm my-[2%]">
       <div className="flex w-full text-slate-300 font-normal">{date}</div>
       <div className="flex w-full font-semibold my-[2px]">
         <div className="flex text-white">{position}</div>
