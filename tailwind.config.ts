@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       keyframes: {},
       colors: {
-        primary: "#083b6d",
+        primary: "#263859",
         secondary: "#006695",
       },
       fontFamily: {

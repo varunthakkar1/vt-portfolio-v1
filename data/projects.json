@@ -12,12 +12,14 @@
   {
     "name": "Marvel Character Catalog",
     "description": "Designed React and TypeScript frontend for Marvel API with functionality for searching and filtering characters by comic, event, or series",
-    "skills": ["React", "TypeScript"]
+    "skills": ["React", "TypeScript"],
+    "link": "https://github.com/varunthakkar1/marvel-character-catalog"
   },
   {
     "name": "Lucy's Love Bus",
     "description": "Collaborated within a team of seven to develop Java Vert.x, React, TypeScript, Postgres event registration web application for local nonprofit organization",
-    "skills": ["React", "TypeScript"]
+    "skills": ["React", "TypeScript"],
+    "link": "https://www.lovebusprograms.org/"
   },
   {
     "name": "Self Driving with DQN",
@@ -27,6 +29,7 @@
   {
     "name": "Falcon 9 Booster Tracker",
     "description": "Developed responsive web application with PostgreSQL, Express, React, and Node to manage boosters and missions of SpaceX’s Falcon 9 rocket",
-    "skills": ["React", "Express", "PostgreSQL"]
+    "skills": ["React", "Express", "PostgreSQL"],
+    "link": "https://github.com/varunthakkar1/f9-booster-tracker"
   }
 ]
