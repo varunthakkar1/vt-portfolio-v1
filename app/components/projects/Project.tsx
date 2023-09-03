@@ -1,6 +1,3 @@
-"use client";
-
-import { link } from "fs";
 import Skill from "../Skill";
 
 export interface ProjectModel {
