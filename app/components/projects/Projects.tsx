@@ -1,15 +1,8 @@
 import Project, { ProjectModel } from "./Project";
-import { readFile } from "fs/promises";
+import { promises as fs } from "fs";
 import path from "path";
 
-const Projects = async (): Promise<JSX.Element> => {
-  const data: Array<ProjectModel> = JSON.parse(
-    await readFile(
-      path.resolve(__dirname, "./../../../data/projects.json"),
-      "utf8"
-    )
-  );
-
+const Projects = ({ data }: { data: Array<ProjectModel> }): JSX.Element => {
   return (
     <div className="flex justify-center w-full min-h-screen items-center">
       <div className="flex justify-center w-10/12 lg:w-8/12">
