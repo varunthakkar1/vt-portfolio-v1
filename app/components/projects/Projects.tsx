@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 const Projects = ({ data }: { data: Array<ProjectModel> }): JSX.Element => {
   const { ref, inView, entry } = useInView({
-    threshold: 0.5,
+    threshold: 0.25,
     triggerOnce: true,
   });
 
