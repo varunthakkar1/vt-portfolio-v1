@@ -26,7 +26,7 @@ const Hero = (): JSX.Element => {
       </div>
       <div
         style={style}
-        className="relative text-white w-full top-[30vh] animate-bounce transition-opacity ease-in duration-[1s] opacity-0 delay-[2s]"
+        className="relative text-white w-full top-[30vh] lg:top-[40vh] animate-bounce transition-opacity ease-in duration-[1s] opacity-0 delay-[2s]"
       >
         <div className="flex justify-center">
           <AiOutlineArrowDown size={"50px"} />

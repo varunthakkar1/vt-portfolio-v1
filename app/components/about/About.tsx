@@ -15,7 +15,7 @@ const About = (): JSX.Element => {
       className="flex flex-col w-full min-h-screen justify-center items-center transition-opacity ease-in duration-[1s] opacity-0"
       style={style}
     >
-      <div className="flex w-full justify-center text-white text-lg md:text-2xl lg:text-4xl">
+      <div className="flex w-full justify-center text-white text-lg md:text-2xl lg:text-4xl mb-[5%]">
         ABOUT ME
       </div>
       <div className="flex justify-center min-w-[300px] max-w-[50%] items-center text-slate-300 text-md md:text-xl lg:text-2xl">
