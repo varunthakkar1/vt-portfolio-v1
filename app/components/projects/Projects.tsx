@@ -10,7 +10,7 @@ const Projects = ({ data }: { data: Array<ProjectModel> }): JSX.Element => {
 
   const style = { opacity: inView ? "100" : "0" };
   return (
-    <div className="flex justify-center w-full my-[12%] items-center">
+    <div className="flex justify-center w-full mt-[12%] mb-[5%] items-center">
       <div className="flex justify-center w-10/12 lg:w-8/12">
         <div className="flex flex-col w-full justify-center">
           <div
