@@ -25,7 +25,7 @@ const About = (): JSX.Element => {
           style={style}
           className="flex justify-center flex-col items-center text-slate-300 text-md md:text-xl lg:text-2xl transition-opacity ease-in duration-500 delay-500 opacity-0"
         >
-          <div className="flex justify-center w-full">
+          <div className="flex w-full">
             I began my programming journey with LEGO Mindstorms, Scratch, and
             16-bit computers in Minecraft (I know it sounds ridiculous). In May
             2023, I graduated magna cum laude from Northeastern University with
@@ -33,16 +33,16 @@ const About = (): JSX.Element => {
             software for three incredible companies, I am now looking for my
             next experience as a software engineer.
           </div>
-          <div className="flex justify-center w-full mt-[5%]">
+          <div className="flex w-full mt-[5%]">
             My interests outside of tech include space exploration, comic books,
             cooking, and cycling. Some of my favorite movies are Arrival,
             Interstellar, and Into the Spider-Verse. I passionately believe
             Indian food is the best food on the planet.
           </div>
-          <div className="flex justify-center w-full mt-[5%]">
+          <div className="w-full mt-[5%] inline-block">
             Please connect with me on&nbsp;
             <Link
-              className="flex inline-link archive-link text-white underline"
+              className="inline-link archive-link text-white underline"
               href={"https://www.linkedin.com/in/varun-m-thakkar/"}
               target="_blank"
             >
