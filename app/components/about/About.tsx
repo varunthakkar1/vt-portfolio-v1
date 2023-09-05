@@ -31,7 +31,7 @@ const About = (): JSX.Element => {
             2023, I graduated magna cum laude from Northeastern University with
             a BS in Computer Science. After having the privilege to develop
             software for three incredible companies, I am now looking for my
-            next experience as a software engineer.
+            next opportunity as a software engineer.
           </div>
           <div className="flex w-full mt-[5%]">
             My interests outside of tech include space exploration, comic books,
