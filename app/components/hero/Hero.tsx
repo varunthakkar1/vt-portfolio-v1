@@ -3,7 +3,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import { useInView } from "react-intersection-observer";
 
 const Hero = (): JSX.Element => {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     threshold: 0,
     triggerOnce: true,
   });

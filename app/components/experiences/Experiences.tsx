@@ -7,7 +7,7 @@ const Experiences = ({
 }: {
   data: Array<ExperienceModel>;
 }): JSX.Element => {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     threshold: 0.5,
     triggerOnce: true,
   });
@@ -15,7 +15,7 @@ const Experiences = ({
   const style = { opacity: inView ? "100" : "0" };
 
   return (
-    <div className="flex justify-center w-full min-h-screen items-center">
+    <div className="flex justify-center w-full my-[12%] items-center">
       <div className="flex justify-center w-10/12 lg:w-8/12 2xl:w-1/2">
         <div className="flex flex-col w-full justify-center">
           <div
